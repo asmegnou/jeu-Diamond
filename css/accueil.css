@@ -1,0 +1,96 @@
+
+body {
+  background-color: rgb(180, 152, 115);
+  font-size: x-large;
+  background-image: url(../images/back._ground.jpg);
+}
+
+
+main {
+  padding: 2%;
+  margin-top: 10%;
+  margin-bottom:  8%;
+  margin-left: 8%;
+  margin-right:  8%;
+  margin-bottom:8%;
+  box-shadow: 10px 5px 5px rgb(133, 111, 83);
+  background-color: antiquewhite;
+  text-align: justify;
+  height: 700px;
+
+
+}
+.titre {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  opacity: 0;
+  animation: fade-in 1s forwards;
+}
+
+.sous-titre {
+  text-align: center;
+  font-size: 29px;
+  margin-top: 5px;
+  opacity: 0;
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bouton-container {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: rgb(133, 111, 83);
+  display: block;
+}
+
+.bouton-container:hover{
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0;
+}
+.lien-accueil {
+
+  color: white;
+  padding: 10px 0;
+
+}
+main {
+  background-image: url(../images/Diamant_cover-1200x1200.jpg);
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+h1,h2{
+  color: aliceblue;
+}
+footer
+{
+  background-image: url(../images/diamant-rester-1.webp);
+  background-size: cover; 
+  color: aliceblue;
+
+}
+.jeux p img
+{
+width: 100px;
+height: auto;
+}
+a {
+  text-decoration: none;
+}
+main{
+  height: 800px;
+}

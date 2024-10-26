@@ -1,0 +1,48 @@
+footer {
+    background-color: burlywood;
+    padding: 5%;
+    
+
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  footer .validator {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  footer .validator img {
+    margin-right: 5px;
+  }
+  
+  footer .creator {
+    display:inline-block;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+  }
+  
+  footer .creator p {
+    margin-left: auto;
+  }
+   #logo{
+    float:right;
+   }
+
+  .validator a{
+    color: white;
+  }

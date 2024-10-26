@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Diamant</title>
+    <link rel="icon" href="./images/diamant.png" >
+    <link rel="stylesheet" href="./css/index.css" >
+    <link rel="stylesheet" href="./css/header.css" >
+    <link rel="stylesheet" href="./css/footer.css" >
+
+
+  </head>
+  <body>
+    <header>
+
+      <nav>
+        <h1><a href="accueil.html">Jeu Diamant</a></h1>
+        <ul class="lien">
+          <li class="deroulant">
+              <a href="index.html">Accueil</a>      
+              <ul class="sous">
+                <li><a href="#partie">Une partie du jeu</a></li>
+                <li><a href="#composition">composition du paquet</a></li>                
+                <li><a href="#deroulement">Déroulement d’une manche</a></li>
+                <li><a href="#finmanche">Fin de la manche</a></li>
+                <li><a href="#fin">Fin de la partie</a></li>
+
+              </ul>
+          </li>
+          <li class="deroulant"><a href="explication2.html">Développement de l’application</a>
+            <ul class="sous">
+              <li><a href="explication2.html#intro">Introduction au Développement de l'application
+              </a></li>
+              <li><a href="explication2.html#tech">Technologies utilisé
+              </a></li>                
+              <li><a href="explication2.html#structure">Structure de l'application
+              </a></li>
+              <li><a href="explication2.html#outils">Outils et environnement
+              </a></li>
+              <li><a href="explication2.html#resultat">Résultats et fonctionnalités
+              </a></li>
+
+            </ul>
+          </li>
+          <li class="deroulant"><a href="presentation.html">Présentation du groupe</a>
+            <ul class="sous">
+              <li><a href="presentation.html#presentation">Présentation du binome</a></li>
+              <li><a href="presentation.html#collab">Collaboration et répartition des tâches
+              </a></li>                
+              <li><a href="presentation.html#realisation">Réalisations et Défis
+              </a></li>
+              <li><a href="presentation.html#lecons">Leçons apprises
+              </a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="btn"> <a href="index.html"> <img src="images/téléchargement.png" alt="flech" class="icone"></a>
+      </div>
+      <h1>Bienvenue sur notre site dédié au jeu Diamant !</h1>
+    
+       <p>Le jeu Diamant est un jeu de société palpitant qui vous plonge dans l'univers de
+         l'exploration de grottes mystérieuses remplies de richesses inestimables. 
+         Votre mission est de rassembler le plus de trésors possible en naviguant avec prudence 
+         à travers des passages dangereux.</p>
+       <p>Faites preuve de stratégie, anticipez les pièges, 
+        et prenez des décisions audacieuses pour accumuler les richesses tout en 
+        évitant de tout perdre en cours de route.</p>
+      <h2 id="regles">Règles du jeu Diamant :</h2>
+        <img id="plateau" src="images/plateau.jpg" alt="plateau">
+        
+
+      
+        <p id="partie">Une partie du jeu Diamant se joue en 5 manch
+        
+          Chaque manche représente une grotte, ensemble, les joueurs explorent les grottes. <br>
+          Ils y trouvent certes de précieuses gemmes, mais s’exposent aussi à des pièges. <br></p>
+          <h4 id="composition">La composition du paquet de cartes est :</h4>
+          <ul>
+            <li>15 cartes rubis avec comme valeurs :
+                <p>1, 2, 3, 4, 5, 5, 7, 7, 9, 11, 11, 13, 14, 15, 17</p>
+            </li>
+            <li>15 cartes pièges réparties en 5 types de pièges en 3 exemplaires chacun :
+            
+              <p>3 serpents, 3 boulets, 3 araignées, 3 laves, 3 pics</p></li>
+            <li>5 reliques (qui valent 5, 7, 8, 10 et 12 rubis) :</li>
+          </ul>
+          <img id="cartes" src="./images/cartes.png" alt="cartes">
+          <br>
+         <p> Avant que l’on ne retourne une nouvelle carte, chaque joueur doit à chaque fois décider
+          s’il prend le risque d’avancer plus profondément encore dans la grotte pour trouver 
+          plus de richesses, ou s’il préfère rentrer au camp mettre son butin à l’abri.<br>
+        </p>
+        
+        <h4 id="deroulement" >Déroulement d’une manche :</h4>
+        <p>
+          On retourne la première carte Expédition de la pioche. <br>
+          Selon que la carte piochée indique des rubis ou un danger, 
+          il se passe ce qui suit:
+        </p>
+          <br>
+          <span class="cartes">Rubis</span> 
+            <br>
+            <div class="rubis">
+            <img  class="gauche" src="images/rubis.png" alt="rubis" >
+            <p class="droite">
+            La valeur de la carte rubis sera partagée équitablement entre les joueurs 
+            encore présents dans la grotte, et le reste sera posé par terre.
+            </p>
+          </div>
+            <br>
+            <h4 class="titre-exempl">Exemple :</h4>
+            <div class="example"> 
+                <img  src="images/example_rubis.png" alt="example" width="30" height="30">
+              <p>
+                Dans une partie
+                à 5 joueurs, une carte
+                rubis de valeur 9 a été tournée,
+                le sac de chaque joueur
+                prend un rubis, et les 4 rubis
+                restants sont posés
+                par terre.
+              </p>
+            </div>
+            <p>
+              Les rubis que l'on récupère pendant l’expédition sont
+              posés dans le sac de chaque joueur et sont donc susceptibles
+              d’être perdus. Ce n’est que lorsqu'on rentre
+              au campement que le coffre se remplit avec le contenu du sac.
+            </p> 
+            <span class="cartes">Pièges</span> 
+              <br>
+              <p>
+                Si un piège apparaît pour la première
+                fois depuis notre entrée dans la grotte,
+                il ne se passe rien et l’expédition
+                continue. Par contre, si le même
+                piège est révélé une seconde fois
+                (pas nécessairement tout de suite après la première fois),
+                tous les joueurs encore présents dans
+                la grotte rentrent immédiatement au
+                campement les mains vides. Et l’expédition prend fin.
+              </p>
+              <h4 class="titre-exempl">Exemple :</h4>
+              <div class="example">
+                <img src="images/example_piege.jpg" alt="example" height="350" width="350">
+                <p>
+                  Lorsqu’une première carte Danger (dans cet exemple) "Serpent"
+                  est révélée, rien ne se passe et l’expédition continue. 
+                  Lorsque, plus tard dans la même manche, une deuxième carte
+                  "Serpent" est révélée, les joueurs abandonnent leurs trésors, 
+                  et l’expédition se termine.
+                </p>
+              </div>
+            <span class="cartes">Relique</span> 
+              <br>
+              <img class="gauche" src="images/diamant-relique.png" alt="cartes_relique" >
+              <p class="droite">
+                La carte Relique reste sur le chemin
+                de la grotte et rien ne se passe. Ensuite, on passe 
+                directement à la phase “Décision des
+                joueurs”. La carte ne prendra sa valeur
+                qu’au moment où un joueur quittera
+                la grotte et la récupèrera seulement s'il est seul.
+              </p>
+        <h4>Décision des joueurs :</h4>
+        <p> 
+          Avant qu’une nouvelle carte Expédition ne soit révélée,
+          chaque joueur encore présent dans la grotte doit décider
+          soit de continuer l’expédition en s’enfonçant dans la
+          grotte, soit de retourner prudemment au campement
+          pour mettre ses Pierres Précieuses à l’abri dans son coffre.
+          Pour cela, le joueur doit faire un choix de décision secrètement (rester ou sortir).<br>
+          Les joueurs qui partent :</p>
+          <ul>
+            <li>se partagent les rubis restés au sol</li>
+            <li>S'ils sont seuls, ils ramassent toutes les reliques au sol</li>
+          </ul>
+        <h4 id="finmanche">Fin de la manche :</h4>
+        <p>
+          Une expédition prend fin lorsque tous les joueurs sont
+          rentrés au campement ou lorsqu’un même Danger
+          apparaît pour la deuxième fois dans la grotte.
+          On passe alors à la manche suivante.
+        </p>
+    <h3 id="fin">Fin de la partie :</h3> 
+    <p>
+      Une fois la cinquième expédition terminée, 
+      tous les joueurs comptent leurs trésors,
+      et le joueur ayant le score total le plus élevé est vainqueur.
+    </p>
+    </main>
+    <footer>
+      <div class="validator">      
+        <p><a href="https://www.w3.org/" target="_blank">Cette page est validée par HTML5 et CSS3.</a></p>
+      </div>
+      <div class="creator">
+        <p>Créé par Assia Megnounif et Eya rekik</p>
+        <p>Contactez-nous :</p>
+        
+        <ul>
+          <li>assia.megnounif@etud.univ-angers.fr</li>
+          <li>eya.rekik@etud.univ-angers.fr</li>
+        </ul>
+      </div>
+      
+      <img src="https://moodle.univ-angers.fr/pluginfile.php/1/theme_adaptable/adaptablemarkettingimages/0/ua_h_blanc_ecran.png"
+              alt="logo-univ-angers"  id="logo">
+      <p>&copy; 2023 Application XYZ. Tous droits réservés.</p>
+
+    </footer>
+  </body>
+</html>

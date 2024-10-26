@@ -1,0 +1,482 @@
+ 
+
+body{
+    background-color: rgb(180, 152, 115);
+    font-size:x-large;
+    background-image: url(../images/back._ground.jpg);
+ }
+
+main {
+    padding: 2%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 8%;
+    box-shadow: 10px 5px 5px rgb(133, 111, 83);
+    background-color: antiquewhite;
+    text-align: justify;
+}
+main h1{
+    text-align: center;
+    padding: 8%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
+}
+
+main p :first-child{
+    margin-top: 6em;
+}
+
+.example{
+    background-color:rgb(180, 152, 115) ;
+    box-shadow: 10px 5px 5px rgb(133, 111, 83);
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color:white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+    font-size: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+ }
+ #structur img{
+    width :70%;
+    height: auto;
+    margin-left: 15%;
+ }
+ 
+
+  .description {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+.card{
+  margin-left: 25%;
+}
+.block{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+
+}
+
+
+#card1{
+  background-image: url(../images/piege.PNG);
+  background-size: cover;
+}
+#info1:before{
+
+  background-image: url(../images/piege.PNG);
+  background-size: cover;
+
+}
+
+#card2{
+  background-image: url(../images/relique_reste.PNG);
+  background-size: cover;
+}
+#info2:before{
+
+  background-image: url(../images/relique_reste.PNG);
+  background-size: cover;
+
+}
+
+
+
+
+#card3{
+  background-image: url(../images/risque_calcule.PNG);
+  background-size: cover;
+}
+#info3:before{
+
+  background-image: url(../images/risque_calcule.PNG);
+  background-size: cover;
+
+}
+
+
+
+#card4{
+  background-image: url(../images/somme_rubis.PNG);
+  background-size: cover;
+}
+#info4:before{
+
+  background-image: url(../images/somme_rubis.PNG);
+  background-size: cover;
+
+}
+
+
+
+
+#card5{
+  background-image: url(../images/smart.PNG);
+  background-size: cover;
+}
+#info5:before{
+
+  background-image: url(../images/smart.PNG);
+  background-size: cover;
+
+}
+
+#card6{
+  background-image: url(../images/smart2.PNG);
+  background-size: cover;
+}
+#info6:before{
+
+  background-image: url(../images/smart2.PNG);
+  background-size: cover;
+
+}
+
+
+
+#card7{
+  background-image: url(../images/melange.PNG);
+  background-size: cover;
+}
+#info7:before{
+
+  background-image: url(../images/melange.PNG);
+  background-size: cover;
+
+}
+#card8{
+  background-image: url(../images/recherche_carte.PNG);
+  background-size: cover;
+}
+#info8:before{
+
+  background-image: url(../images/recherche_carte.PNG);
+  background-size: cover;
+
+}
+
+#card9{
+  background-image: url(../images/seul.PNG);
+  background-size: cover;
+}
+#info9:before{
+
+  background-image: url(../images/seul.PNG);
+  background-size: cover;
+
+}
+
+#card10{
+  background-image: url(../images/manche1.PNG);
+  background-size: cover;
+}
+#info10:before{
+
+  background-image: url(../images/manche1.PNG);
+  background-size: cover;
+
+}
+#card11{
+  background-image: url(../images/manche2.PNG);
+  background-size: cover;
+}
+#info11:before{
+
+  background-image: url(../images/manche2.PNG);
+  background-size: cover;
+
+}
+
+#card12{
+  background-image: url(../images/manche3.PNG);
+  background-size: cover;
+}
+#info12:before{
+
+  background-image: url(../images/manche3.PNG);
+  background-size: cover;
+
+}
+#card13{
+  background-image: url(../images/card13.PNG);
+  background-size: cover;
+}
+#info13:before{
+
+  background-image: url(../images/card13.PNG);
+  background-size: cover;
+
+}
+#card14{
+  background-image: url(../images/card14.PNG);
+  background-size: cover;
+}
+#info14:before{
+
+  background-image: url(../images/card14.PNG);
+  background-size: cover;
+
+}
+#card15{
+  background-image: url(../images/cinq_manche.PNG);
+  background-size: cover;
+
+}
+#info15:before{
+
+  background-image: url(../images/cinq_manche.PNG);
+  background-size: cover;
+
+
+}
+#card16{
+  background-image: url(../images/load1.PNG);
+  background-size: cover;
+
+}
+#info16:before{
+
+  background-image: url(../images/load1.PNG);
+  background-size: cover;
+
+
+}
+
+#card17{
+  background-image: url(../images/load2.PNG);
+  background-size: cover;
+
+}
+#info17:before{
+
+  background-image: url(../images/load2.PNG);
+  background-size: cover;
+
+
+}
+#card18{
+  background-image: url(../images/main1JPG.JPG);
+  background-size: cover;
+
+}
+#info18:before{
+
+  background-image: url(../images/main1JPG.JPG);
+  background-size: cover;
+
+
+}
+#card19{
+  background-image: url(../images/main2.JPG);
+  background-size: cover;
+
+}
+#info19:before{
+
+  background-image: url(../images/main2.JPG);
+  background-size: cover;
+
+
+}
+#card20{
+  background-image: url(../images/main3.jpg);
+  background-size: cover;
+
+}
+#info20:before{
+
+  background-image: url(../images/main3.jpg);
+  background-size: cover;
+
+
+}
+
+
+
+.card {
+    border-radius: 10px; 
+    width: 600px;
+    height: 300px;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    background-image: url(../images/joueur.PNG);
+    background-size: cover;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+
+  .info {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: burlywood;
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+    overflow: auto;
+
+  }
+  .info:before {
+    z-index: -1;
+    display: block; position: absolute;
+    content: ' ';
+    width: 100%; height: 100%;
+    background-image: url(../images/joueur.PNG);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+
+  }
+  .card:hover .info,
+  .card:hover .info:before {
+    transform: translateY(0) translateZ(0);
+  }
+  
+ .card1 {
+    border-radius: 10px; 
+    width: 600px;
+    height: 300px;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    background-image: url(../images/piege.PNG);
+    background-size: cover;
+  }
+  
+  .info1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: burlywood;
+    transform: translateY(100%)
+      translateY(-88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+    overflow: auto;
+  
+  }
+  .info1:before {
+    z-index: -1;
+    display: block; position: absolute;
+    content: ' ';
+    width: 100%; height: 100%;
+    background-image: url(../images/piege.PNG);
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%)
+      translateY(88px)
+      translateZ(0);
+    transition: transform 0.3s ease-out;
+  
+  }
+  .card1:hover .info1,
+  .card1:hover .info1:before {
+    transform: translateY(0) translateZ(0);
+  }
+  
+
+
+.strategies{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 50% 50%;
+    grid-gap:2%;
+
+    margin-left: 0%;
+    margin-right: 0%;
+    width: auto;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.fonction1{
+
+    display: grid;
+    grid-template-rows: auto auto ;
+    grid-template-columns: 50% 50%;
+    grid-gap:2%;
+
+    margin-left: 0%;
+    margin-right: 0%;
+    width: auto;
+    margin-bottom: 2em;
+    margin-top: 1em;
+
+}
+.manche
+{
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-template-columns: 50% 50%;
+    grid-gap:2%;
+
+    margin-left: 0%;
+    margin-right: 0%;
+    width: auto;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.sup{
+    display: grid;
+    grid-template-rows: auto auto  ;
+    grid-template-columns: 50% 50%;
+    grid-gap:2%;
+
+    margin-left: 0%;
+    margin-right: 0%;
+    width: auto;
+    margin-bottom: 2em;
+    margin-top: 1em;
+
+}
+.main{
+  display: grid;
+  grid-template-rows: auto auto  ;
+  grid-template-columns: 50% 50%;
+  grid-gap:2%;
+
+  margin-left: 0%;
+  margin-right: 0%;
+  width: auto;
+  margin-bottom: 2em;
+  margin-top: 1em;
+
+}
+main h1{
+  text-align: center;
+  padding: 8%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  
+}
+.btn{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor:pointer ;
+}
+.icone{
+width: 30px;
+}
